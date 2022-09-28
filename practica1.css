@@ -39,11 +39,11 @@ div {
 	border-radius: 40px;
 }
 .porfolio {
-	margin-top: 10px;
 	background-color: #C3C0C0;
 	height: 49%;
 	width: 100%;	
 	border-radius: 40px;
+	margin-top: 10px;
 }
 nav {
 	display: inline-block;
