@@ -1,0 +1,32 @@
+h1 {
+	position: relative;
+	top: 10px;
+	left: 50px;
+}
+body {
+	margin: 0;
+}
+.sticky-menu {
+	position: sticky;
+	background-color: #c9c6bb;
+	top: 0;
+	z-index: 10;
+}
+.sticky-menu > .menu-element{
+	text-align: center;
+	margin-top: 15px;
+	width: 5%;
+	display: inline-block;
+}
+.footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background-color: #c9c6bb;
+}
+.footer > .menu-element {
+	text-align: center;
+	margin-top: 15px;
+	width: 5%;
+	display: inline-block;;
+}
