@@ -4,7 +4,7 @@ body {
 }
 nav {
 	position: relative;
-	background-color: darkgrey;
+	background-color: #665f5f;
 	height: 100px;
 	width: 1500px;
 	margin: 50px auto;
@@ -22,7 +22,7 @@ nav > .nav-item {
 	background-color: lightgreen;
 	position: sticky;
 	width: 1500px;
-	height: 1000px;
+	height: 800px;
 	margin: auto;
 }
 #li1, #li2, #li3, #li4 {
@@ -76,8 +76,16 @@ figure img {
 	width: 90%;
 	padding-top: 10px;
 }
-ul {
+.fixed-sidebar ul {
 	width: 100%;
 	list-style-type:none;
 	padding-left: 5px;
+}
+footer {
+	height: 5%;
+	width: 100%;
+	position: relative;
+	bottom: 0;
+	columns: 3;
+	text-align: center;
 }
