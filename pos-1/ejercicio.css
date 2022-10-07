@@ -82,13 +82,14 @@ figure img {
 	padding-left: 5px;
 }
 footer {
-	height: 5%;
+	background-color: #665f5f;
 	width: 100%;
 	column-width: 20%;
-	position: relative;
+	position: fixed;
 	bottom: 0;
 	columns: 3;
 	text-align: center;
+	margin: 0;
 }
 footer ul {
 	list-style: none;
