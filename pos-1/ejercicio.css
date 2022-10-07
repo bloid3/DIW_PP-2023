@@ -84,8 +84,13 @@ figure img {
 footer {
 	height: 5%;
 	width: 100%;
+	column-width: 20%;
 	position: relative;
 	bottom: 0;
 	columns: 3;
 	text-align: center;
+}
+footer ul {
+	list-style: none;
+	margin: 0;
 }
