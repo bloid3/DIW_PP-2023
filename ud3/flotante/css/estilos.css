@@ -2,6 +2,20 @@
   box-sizing: border-box;
 }
 
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  bottom: 0;
+  width: 95%;
+  background-color: lightgrey;
+  height: 30px;
+}
+
 header {
   text-align: center;
   font-size: 30px;
@@ -21,9 +35,13 @@ nav .menu-item {
   margin-top: 15px;
 }
 
-.container {
-  width: 80%;
-  margin: 20px auto;
+footer {
+  clear: both;
+  text-align: center;
+  bottom: 0;
+  width: 95%;
+  background-color: lightgrey;
+  height: 30px;
 }
 
 .sidebar {
@@ -72,15 +90,6 @@ nav .menu-item {
   float: left;
   width: 33%;
   padding-top: 10px;
-}
-
-footer {
-  clear: both;
-  text-align: center;
-  bottom: 0;
-  width: 95%;
-  background-color: lightgrey;
-  height: 30px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
