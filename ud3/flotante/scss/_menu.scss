@@ -8,11 +8,29 @@ nav {
   color: white;
   text-align: center;
   width: 95%;
+  .menu-item {
+	display: inline-block;
+  	width: 17%;
+  	height: 30px;
+  	margin-top: 15px;
+  }
 }
 
-nav .menu-item {
-  display: inline-block;
-  width: 17%;
-  height: 30px;
-  margin-top: 15px;
-}
+.sidebar {
+	background-color: black;
+	color: white;
+	float: left;
+	width: 10%;
+	height: 500px;
+	margin-top: 20px;
+
+	.menu-item {
+		height: 50px;
+		float: left;
+		width: 100%;
+		padding-left: 10px;
+		padding-top: 10px;
+	}
+  }
+  
+  
