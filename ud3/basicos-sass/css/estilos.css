@@ -1,17 +1,11 @@
-#header {
-  font-size: 30px;
+h1 {
+  background: red;
+  border: 1.1em solid red;
 }
-#header h1 {
-  color: grey;
-}
-#header p {
-  color: red;
-}
-#header p a {
-  text-decoration: none;
-}
-#header p a:hover {
-  color: green;
+
+p {
+  background: red;
+  border: 0.9em solid red;
 }
 
 /*# sourceMappingURL=estilos.css.map */

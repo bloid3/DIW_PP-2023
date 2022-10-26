@@ -1,0 +1,10 @@
+
+h1 {
+	background: red;
+	border: 1.1em solid darken(red, 20%); // rojo 20% más oscuro
+}
+
+p {
+	background: lighten( red, 30%); // rojo 30% más claro
+	border: 0.9em solid red;
+}
