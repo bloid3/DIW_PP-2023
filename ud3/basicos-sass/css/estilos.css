@@ -1,21 +1,17 @@
-h1 {
+#header {
+  font-size: 30px;
+}
+#header h1 {
+  color: grey;
+}
+#header p {
   color: red;
 }
-
-p {
-  color: blue;
+#header p a {
+  text-decoration: none;
 }
-
-h1 {
-  color: red;
-}
-
-p {
-  color: blue;
-}
-
-.btn-error {
-  color: red;
+#header p a:hover {
+  color: green;
 }
 
 /*# sourceMappingURL=estilos.css.map */

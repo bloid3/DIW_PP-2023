@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../scss/01-variables.scss"],"names":[],"mappings":"AAGA;EACC;;;AAED;EACC;;;AAMD;EACC;;;AAGD;EACC;;;AAMD;EACC","file":"estilos.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/03-reglas-anidadas.scss"],"names":[],"mappings":"AACA;EACI;;AACH;EACC;;AAED;EACC;;AACA;EACC;;AACA;EACC","file":"estilos.css"}
