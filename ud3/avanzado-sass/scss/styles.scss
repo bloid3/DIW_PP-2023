@@ -1,0 +1,13 @@
+$coloresBotones: (
+	'error' : red,
+	'warning' : blue,
+	'accepted' : green,
+	'normal' : yellow 
+);
+
+
+@each $k, $v in $coloresBotones {
+	.btn-#{$k} {
+		background-color: $v;
+	}
+}
