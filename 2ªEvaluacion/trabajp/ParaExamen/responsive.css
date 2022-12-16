@@ -1,0 +1,134 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+header, footer {
+	background-color: grey;
+}
+#logo {
+	background-color: red;
+}
+#search {
+	background-color: lightcoral;
+}
+main {
+	background-color: black;
+}
+.articulo {
+	background-color: orange;
+}
+#a1 {
+	background-color: orangered;
+}
+.articulo2 {
+	background-color: brown;
+}
+.lado {
+	background-color: pink;
+}
+.pieLado {
+	background-color: purple;
+}
+#d1 {
+	background-color: blue;
+}
+#d2 {
+	background-color: yellow;
+}
+#d3 {
+	background-color: green;
+}
+#miniPie {
+	background-color: lightgrey;
+}
+@media only screen and (min-width: 992px){
+	header {
+		position: sticky;
+	}
+	#logo {
+		
+	}
+	#search {
+		
+	}
+	main {
+		
+	}
+	.articulo {
+		
+	}
+	#a1 {
+		
+	}
+	.articulo2 {
+			
+	}
+	.lado {
+		
+	}
+	.pieLado {
+		
+	}
+	footer {
+		
+	}
+	#d1 {
+		
+	}
+	#d2 {
+		
+	}
+	#d3 {
+		
+	}
+	#miniPie {
+		
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+@media only screen and (max-width: 767px) {
+	header{
+		position: sticky;
+		
+	}
+
+	#logo,#search{
+		
+	}
+
+	main{
+		
+
+	}
+	.articulo{
+		
+	}
+	.articulo2{
+		
+	}
+	#a1{
+		
+	}
+	#a1:last-child{
+		
+	}
+	.lado{
+		
+	}
+	.pieLado{
+		
+	}
+	footer{
+		
+	}
+	#d1{
+		
+	}
+	#d2,#d3,#miniPie{
+		
+	}
+}

@@ -61,30 +61,71 @@ main {
 		margin-right: 10px;
 	}
 	main {
-		margin-top: 10px;
 		width: 100%;
-		height: 690px;
+		height: 680px;
 		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
 	}
 	.articulo {
 		width: 700px;
 		height: 590px;
-		margin-top: 50px;
-		margin-left: 50px;
 		display: flex;
+		flex-direction: row;
+		align-items: center;
 	}
 	#a1 {
-		margin-left: 20px;
-		margin-top: 20px;
+		margin-left: 25px;
 		width: 200px;
 		height: 550px;
 	}
-	footer {
-		width: 100%;
-		margin-top: 10px;
-		height: 140px;
+	.articulo2 {
+			width: 300px;
+			height: 550px;
 	}
-	
+	.lado {
+		width: 300px;
+		height: 550px;
+		display: flex;
+		flex-direction: column;
+		justify-content: end;
+	}
+	.pieLado {
+		width: 300px;
+		height: 100px;
+	}
+	footer {
+		bottom: 40px;
+		position: fixed;
+		width: 100%;
+		height: 110px;
+		display: flex;
+		justify-content: space-between;
+	}
+	#d1 {
+		width: 25%;
+		height: 50px;
+		margin-left: 10px;
+	}
+	#d2 {
+		width: 25%;
+		height: 50px;
+		align-self: end;
+	}
+	#d3 {
+		width: 25%;
+		height: 50px;
+		margin-right: 10px;
+		justify-self: end;
+	}
+	#miniPie {
+		bottom: 0;
+		position: fixed;
+		flex: 1;
+		width: 100%;
+		height: 40px;
+	}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -92,5 +133,70 @@ main {
 }
 
 @media only screen and (max-width: 767px) {
-	
+	header{
+		position: sticky;
+		top:0px;
+		width: 100%;
+		height: 40px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#logo,#search{
+		width: 30%;
+		margin: 5px;
+	}
+
+	main{
+		height: 110%;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+
+	.articulo{
+		display: flex;
+		justify-content: space-around;
+		align-items:center;
+		width: 700px;
+		height: 700px;
+		margin: 40px;
+	}
+	.articulo2{
+		display: none;
+	}
+	#a1{
+		width: 300px;
+		height: 600px;
+	}
+	#a1:last-child{
+		display: none;
+	}
+	.lado{
+		width: 700px;
+		height: 700px;
+		margin: 40px;
+		display: flex;
+		align-items: end;
+	}
+	.pieLado{
+		height: 100px;
+		width: 100%;
+	}
+	footer{
+		position: sticky;
+		bottom: 0;
+		width: 100%;
+		height: 75px;
+		display: flex;
+		flex-direction: column;
+	}
+	#d1{
+		display: none;
+	}
+	#d2,#d3,#miniPie{
+		width: 100%;
+		height: 33%;
+	}
 }
