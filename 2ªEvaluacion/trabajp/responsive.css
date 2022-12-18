@@ -172,7 +172,7 @@ main {
 	.articulo{
 	
 		display: flex;
-		height: 300px;
+		height: 400px;
 		width: 400px;
 		align-self:center;
 		justify-content: space-around;
@@ -181,7 +181,7 @@ main {
 	
 	#a1 {
 		width: 190px;
-		height: 280px;
+		height: 380px;
 	}
 	#a1:last-child {
 		display: none;
@@ -195,8 +195,8 @@ main {
 	.lado{
 	
 		display: flex;
-		width: 200px;
-		height: 300px;
+		width: 300px;
+		height: 400px;
 		align-self: center;
 		/* align-items: flex-end;
 		justify-content: flex-end; */
@@ -204,7 +204,7 @@ main {
 	.pieLado{
 		
 		height: 50px;
-		width: 200px;
+		width: 300px;
 		align-self: end;
 	
 	
