@@ -129,7 +129,121 @@ main {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+	*{
+		box-sizing: border-box;
+		margin: 0%;
+	}
+	header{
+		width: 778px;
+		height: 150px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap: nowrap;
+		position: sticky;
+		
+	}	
 	
+	#logo{
+		display: flex;
+		justify-content: flex-start;
+		height: 50px;
+		width: 200px;
+	
+	 
+	}
+	
+	#search{
+	
+		display: flex;
+		align-self: center;
+		height: 50px;
+		width: 200px;
+	}
+	
+	main{
+		display: flex;
+		width: 778px;
+		height: 600px;
+		justify-content: space-around;
+		
+	
+	}
+	.articulo{
+	
+		display: flex;
+		height: 300px;
+		width: 400px;
+		align-self:center;
+		justify-content: space-around;
+		align-items: center;
+	}
+	
+	#a1 {
+		width: 190px;
+		height: 280px;
+	}
+	#a1:last-child {
+		display: none;
+	}
+	
+	
+	.articulo2{
+	
+		display: none;
+	}
+	.lado{
+	
+		display: flex;
+		width: 200px;
+		height: 300px;
+		align-self: center;
+		/* align-items: flex-end;
+		justify-content: flex-end; */
+	}
+	.pieLado{
+		
+		height: 50px;
+		width: 200px;
+		align-self: end;
+	
+	
+	}
+	
+	footer{
+	
+		display: flex;
+		width: 778px;
+		height: 140px;
+		justify-content: space-between;
+		position: fixed;
+		bottom: 20px;
+	}
+	#d1{
+	
+		width: 33%;
+		height: 70px;
+		align-self: flex-start;
+	}
+	#d2{
+	
+		width: 33%;
+		height: 70px;
+		align-self: flex-end;
+	
+	}
+	#d3{
+	
+		width: 33%;
+		height: 70px;
+		align-self: flex-start;
+	}
+	#miniPie{
+		width: 778px;
+		height: 20px;
+		position: fixed;
+		bottom: 0px;
+	}
 }
 
 @media only screen and (max-width: 767px) {
