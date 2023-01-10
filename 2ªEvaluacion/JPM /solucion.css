@@ -48,6 +48,7 @@ main {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		position: sticky;
 	}
 	#logo {
 		width: 400px;
