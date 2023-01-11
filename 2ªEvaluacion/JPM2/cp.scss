@@ -1,0 +1,54 @@
+$colores: (
+	"negro": #272932,
+r	"marron": #710000,
+	"amarillo": #FDF500,
+	"turquesa": #1AC5B0,
+	"lightturquesa": #37EBF3,
+	"morado": #9370DB,
+	"frostbite": #E455AE,
+	"steelpink": #CB1DCD,
+	"plata":#D1C5C0
+);
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: 'Teroxia Demo', sans-serif;
+                                                
+}
+#titulo {
+	font-family: 'Cyberthrone', sans-serif;
+                                                
+}
+body {
+	background-color: map-get($colores, "amarillo");
+}
+ 
+
+
+
+.anim{
+    animation-duration: 15s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: -200%;
+        width: 100%;
+    }
+}
+
+
+
+
+@media only screen and (min-width:768px) {
+
+	
+	
+}
